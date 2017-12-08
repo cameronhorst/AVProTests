@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/AVProVideo/Demos/01_Demo_BackgroundShader.unity
+- path: Assets/TestScenes/SimpleBackgroundPlayer.unity
   isLoaded: 1
   isActive: 1
