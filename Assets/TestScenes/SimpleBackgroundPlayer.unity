@@ -831,6 +831,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2031105773}
+  - component: {fileID: 2031105774}
   - component: {fileID: 2031105772}
   m_Layer: 0
   m_Name: MediaPlayer
@@ -850,10 +851,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638c870cac4da414fba921606d504407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_VideoLocation: 2
-  m_VideoPath: AVProVideoSamples/BigBuckBunny_720p30.mp4
-  m_AutoOpen: 1
-  m_AutoStart: 1
+  m_VideoLocation: 0
+  m_VideoPath: http://www.pawmigo.us/StreamingContent/AtriumBallroomB_AtriumBallroomA_Transition.mp4
+  m_AutoOpen: 0
+  m_AutoStart: 0
   m_Loop: 1
   m_Volume: 1
   m_Balance: 0
@@ -966,3 +967,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2031105774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2031105771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb84d4afe472eb48a0f661743ea88dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  siteURL: http://www.pawmigo.us/StreamingContent/
+  fileName: AtriumBallroomB_AtriumBallroomA_Transition.mp4
