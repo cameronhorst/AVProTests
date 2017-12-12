@@ -182,7 +182,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 2}
       propertyPath: m_VideoPath
-      value: AVProVideoSamples/SampleSphere.mp4
+      value: https://static-media.gigcasters.com/cm/p45v/encodes/1512677434-20-4ecdbd55_AtriumBallroomB_AtriumBallroomA_Transition_15000.mp4?6f55b063ee4de84d260f484286d88513dc719b3a259e2ddc650784d6d951ae6bb86c8dabde2389a3119d26c3125c7a4cc82709b23f2ceda06cf24f7901ca1cd51c689775a6d839c89c23fdb942f7cb4d0ed719da42561f684eb9c108ed77f7de799d629b9341549dd36cc2f44423c11560b02e403a35991d31682fde40a0c05fd769f1e894e96f208b974159c4c6d0428bbb9450c4fa43783fbe97fcdf658025e76237bdb538e132ab05a967c7261d8d774e9382a7a03fe9589de6cb5ae59f06a5fb0612787a47c381279cf929c9a959f2e4223c8cd500e583d1432679bafc8a25431c89d7c22f13e929d4bec624d3c03398c2c2e0331f51a7609ef8c87a8b6160a3c988
       objectReference: {fileID: 0}
     - target: {fileID: 427526, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 2}
       propertyPath: m_LocalRotation.y
@@ -200,6 +200,10 @@ Prefab:
       propertyPath: _renderer
       value: 
       objectReference: {fileID: 56631015}
+    - target: {fileID: 11498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 2}
+      propertyPath: m_VideoLocation
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 2}
   m_IsPrefabParent: 0
@@ -385,4 +389,3 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  currentCameraMode: 0
